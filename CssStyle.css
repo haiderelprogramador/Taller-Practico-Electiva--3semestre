@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #1F1B2E; 
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 19px 40px;
+    background-color: #1F1B2E; 
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #A68A9F; 
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 90px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #EAEAEA; 
+    font-size: 28px;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    background-color: purple; 
+    color: #F5F5F5; 
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+.nosotros {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #1F1B2E;
+}
+
+.nosotros h2 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #D5C6E0; 
+    margin-bottom: 10px;
+}
+
+.nosotros p {
+    font-size: 18px;
+    color: #EAEAEA; 
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.anuncios-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    padding: 40px;
+}
+
+.producto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #2E2A40; 
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+.producto:hover {
+    transform: scale(1.05);
+}
+
+.anuncio {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.3);
+}
+
+.producto h3 {
+    font-size: 20px;
+    color: #EAEAEA; 
+    margin: 15px 0;
+}
+
+.btn-carrito {
+    background-color: #6C597A; 
+    color: #F5F5F5;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-carrito:hover {
+    background-color: purple; 
+}
